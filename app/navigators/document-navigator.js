@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
 import Document from '../screens/document';
-import DocDetail from '../screens/document/DocDetail';
+import DocDetail from '../screens/document/doc-detail';
 
 const DocumentNavigator = createStackNavigator({
   Document: {

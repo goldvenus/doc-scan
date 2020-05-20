@@ -1,16 +1,17 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
-import { normalizeSize, borderRadius, paddingSize, fontSize } from '@constants/Layout';
+import { normalizeSize, borderRadius, paddingSize, fontSize } from '@theme/layout';
 import PropTypes from 'prop-types';
 import { Icon } from '../icon';
-import AppMocData from '@share/MocData';
-import GlobalStyle from '../../constants/GlobalStyle';
+import folderIcon from '@images/dashBoard/ic_folder.png';
+import moreIcon from '@images/icons/ic_more.png';
+import GlobalStyle from '@theme/global-style';
 
 export const DocCard = ({ style, title, description }) => (
   <View style={[styles.container, style]}>
     <View style={styles.top}>
-      <Icon imageUrl={AppMocData.dashBoard.folder} width={43} height={33} />
-      <Icon imageUrl={AppMocData.Icons.more} height={4.17} width={18} />
+      <Icon imageUrl={folderIcon} width={43} height={33} />
+      <Icon imageUrl={moreIcon} height={4.17} width={18} />
     </View>
     <Text style={[GlobalStyle.H3, { paddingTop: paddingSize.p_25 }]}>{title}</Text>
     <Text style={[GlobalStyle.description, { fontSize: fontSize.small }]}>{description}</Text>

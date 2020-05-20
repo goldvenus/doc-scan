@@ -1,15 +1,15 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import GlobalColors from '../../constants/Colors';
-import { normalizeSize, paddingSize } from '../../constants/Layout';
+import GlobalColors from '@theme/colors';
+import { normalizeSize, paddingSize } from '@theme/layout';
 import { Icon } from '../icon';
-import AppMocData from '../../share/MocData';
+import checkCircle from '@images/icons/ic_checkcircle.png';
 
 export const DocToolBar = () => (
   <View style={styles.toolContainer}>
-    <Icon imageUrl={AppMocData.Icons.checkCircle} />
-    <Icon imageUrl={AppMocData.Icons.checkCircle} />
-    <Icon imageUrl={AppMocData.Icons.checkCircle} />
+    <Icon imageUrl={checkCircle} />
+    <Icon imageUrl={checkCircle} />
+    <Icon imageUrl={checkCircle} />
   </View>
 );
 

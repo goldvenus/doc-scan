@@ -9,8 +9,8 @@ module.exports = (api) => {
           root: ['.'],
           alias: {
             '@screens': './app/screens',
-            '@images': './app/theme/image',
-            '@icons': './app/theme/icons',
+            '@images': './assets/image',
+            '@icons': './assets/icons',
             '@theme': './app/theme',
             '@redux': './app/redux',
             '@components': './app/components'

@@ -2,8 +2,8 @@ import React from 'react';
 import { TextInput, View } from 'react-native';
 import PropTypes from 'prop-types';
 import { Icon } from './icon';
-import AppMocData from '@share/MocData';
-import { normalizeSize } from '@constants/Layout';
+import { normalizeSize } from '@theme/layout';
+import searchIcon from '@images/icons/ic_search.png';
 
 export const DocSearch = ({ style, placeHolder }) => (
   <View style={{ flexDirection: 'row' }}>
@@ -14,7 +14,7 @@ export const DocSearch = ({ style, placeHolder }) => (
       }, style]}
       placeholder={placeHolder} />
     <Icon
-      imageUrl={AppMocData.Icons.search}
+      imageUrl={searchIcon}
       width={15}
       height={15}
       style={{

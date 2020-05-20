@@ -1,5 +1,4 @@
-import AppMocData from '@share/MocData';
-
+import listItemIcon from '@images/icons/ic_list.png';
 export const DocumentData = [
   {
     title: 'Invoices',
@@ -13,17 +12,17 @@ export const DocumentData = [
 
 export const DocumentListData = [
   {
-    imageUrl: AppMocData.Icons.listItem,
+    imageUrl: listItemIcon,
     title: 'Unity Media',
     id: 'LFDE-INV-2019-234827369'
   },
   {
-    imageUrl: AppMocData.Icons.listItem,
+    imageUrl: listItemIcon,
     title: 'Unity Media',
     id: 'LFDE-INV-2019-234827370'
   },
   {
-    imageUrl: AppMocData.Icons.listItem,
+    imageUrl: listItemIcon,
     title: 'Unity Media',
     id: 'LFDE-INV-2019-234827371'
   }

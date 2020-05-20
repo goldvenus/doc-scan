@@ -14,6 +14,18 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3DE4DAD41476765101945408 /* libPods-yomabo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43FF9D506E70904424FA7E9 /* libPods-yomabo.a */; };
 		99EC63CFB4B549BBAF093D10 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ABB89D1E68496EB7D95742 /* SplashScreen.storyboard */; };
+		A1E7C7F424B1401ABFF9EBD1 /* Avenir-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1033F3B0D60241B69866EF75 /* Avenir-Black.ttf */; };
+		A87A9FAB80E2465996546EC3 /* Avenir-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECC6AC9F522148378E139977 /* Avenir-Book.ttf */; };
+		CF82A1B595A74C339F2F7AC5 /* Avenir-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB48B5EBADC3430BA2C48D78 /* Avenir-Heavy.ttf */; };
+		A63C9554EF8842F8B96B32F1 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4658AD28A484590A15944E9 /* Avenir-Light.ttf */; };
+		6BAE86D1650A403C881232AE /* Avenir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB27EBD03F6F4E528E44D3D4 /* Avenir-Medium.ttf */; };
+		F7E58F488446425AAFE60FA2 /* Avenir-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9969B7707F4443900E3004 /* Avenir-Roman.ttf */; };
+		35659F449BE04963BCE5D8E8 /* Avenir-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2C8669D3A664458A94A0637 /* Avenir-Black.ttf */; };
+		6DD090849C5E4951AF8CAB23 /* Avenir-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BD533B22A5E4522B8618BA9 /* Avenir-Book.ttf */; };
+		65BDF6FDAF4549789D20EFC4 /* Avenir-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 565F425E62C4491F9225054F /* Avenir-Heavy.ttf */; };
+		6660609F9FBB44F4907D0061 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA21D72BBACE41A5A1602AED /* Avenir-Light.ttf */; };
+		DE166863BF6E4C3A9B4634BF /* Avenir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01FDF39241244ED0B695CF7D /* Avenir-Medium.ttf */; };
+		D51D3F2A61DB409A88F273E0 /* Avenir-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7FF0F0FB0CB4D22B0652608 /* Avenir-Roman.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +45,18 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		E3ABB89D1E68496EB7D95742 /* SplashScreen.storyboard */ = {isa = PBXFileReference; name = "SplashScreen.storyboard"; path = "yomabo/SplashScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = file.storyboard; };
+		1033F3B0D60241B69866EF75 /* Avenir-Black.ttf */ = {isa = PBXFileReference; name = "Avenir-Black.ttf"; path = "../app/theme/fonts/Avenir-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECC6AC9F522148378E139977 /* Avenir-Book.ttf */ = {isa = PBXFileReference; name = "Avenir-Book.ttf"; path = "../app/theme/fonts/Avenir-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB48B5EBADC3430BA2C48D78 /* Avenir-Heavy.ttf */ = {isa = PBXFileReference; name = "Avenir-Heavy.ttf"; path = "../app/theme/fonts/Avenir-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4658AD28A484590A15944E9 /* Avenir-Light.ttf */ = {isa = PBXFileReference; name = "Avenir-Light.ttf"; path = "../app/theme/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB27EBD03F6F4E528E44D3D4 /* Avenir-Medium.ttf */ = {isa = PBXFileReference; name = "Avenir-Medium.ttf"; path = "../app/theme/fonts/Avenir-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E9969B7707F4443900E3004 /* Avenir-Roman.ttf */ = {isa = PBXFileReference; name = "Avenir-Roman.ttf"; path = "../app/theme/fonts/Avenir-Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2C8669D3A664458A94A0637 /* Avenir-Black.ttf */ = {isa = PBXFileReference; name = "Avenir-Black.ttf"; path = "../assets/fonts/Avenir-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BD533B22A5E4522B8618BA9 /* Avenir-Book.ttf */ = {isa = PBXFileReference; name = "Avenir-Book.ttf"; path = "../assets/fonts/Avenir-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		565F425E62C4491F9225054F /* Avenir-Heavy.ttf */ = {isa = PBXFileReference; name = "Avenir-Heavy.ttf"; path = "../assets/fonts/Avenir-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA21D72BBACE41A5A1602AED /* Avenir-Light.ttf */ = {isa = PBXFileReference; name = "Avenir-Light.ttf"; path = "../assets/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01FDF39241244ED0B695CF7D /* Avenir-Medium.ttf */ = {isa = PBXFileReference; name = "Avenir-Medium.ttf"; path = "../assets/fonts/Avenir-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7FF0F0FB0CB4D22B0652608 /* Avenir-Roman.ttf */ = {isa = PBXFileReference; name = "Avenir-Roman.ttf"; path = "../assets/fonts/Avenir-Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				72E5486571395D51695C2A02 /* Pods */,
+				DD26172CF5C54FF98087AC6C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -112,6 +137,26 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		DD26172CF5C54FF98087AC6C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1033F3B0D60241B69866EF75 /* Avenir-Black.ttf */,
+				ECC6AC9F522148378E139977 /* Avenir-Book.ttf */,
+				DB48B5EBADC3430BA2C48D78 /* Avenir-Heavy.ttf */,
+				F4658AD28A484590A15944E9 /* Avenir-Light.ttf */,
+				CB27EBD03F6F4E528E44D3D4 /* Avenir-Medium.ttf */,
+				8E9969B7707F4443900E3004 /* Avenir-Roman.ttf */,
+				E2C8669D3A664458A94A0637 /* Avenir-Black.ttf */,
+				1BD533B22A5E4522B8618BA9 /* Avenir-Book.ttf */,
+				565F425E62C4491F9225054F /* Avenir-Heavy.ttf */,
+				DA21D72BBACE41A5A1602AED /* Avenir-Light.ttf */,
+				01FDF39241244ED0B695CF7D /* Avenir-Medium.ttf */,
+				F7FF0F0FB0CB4D22B0652608 /* Avenir-Roman.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -178,6 +223,18 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				99EC63CFB4B549BBAF093D10 /* SplashScreen.storyboard in Resources */,
+				A1E7C7F424B1401ABFF9EBD1 /* Avenir-Black.ttf in Resources */,
+				A87A9FAB80E2465996546EC3 /* Avenir-Book.ttf in Resources */,
+				CF82A1B595A74C339F2F7AC5 /* Avenir-Heavy.ttf in Resources */,
+				A63C9554EF8842F8B96B32F1 /* Avenir-Light.ttf in Resources */,
+				6BAE86D1650A403C881232AE /* Avenir-Medium.ttf in Resources */,
+				F7E58F488446425AAFE60FA2 /* Avenir-Roman.ttf in Resources */,
+				35659F449BE04963BCE5D8E8 /* Avenir-Black.ttf in Resources */,
+				6DD090849C5E4951AF8CAB23 /* Avenir-Book.ttf in Resources */,
+				65BDF6FDAF4549789D20EFC4 /* Avenir-Heavy.ttf in Resources */,
+				6660609F9FBB44F4907D0061 /* Avenir-Light.ttf in Resources */,
+				DE166863BF6E4C3A9B4634BF /* Avenir-Medium.ttf in Resources */,
+				D51D3F2A61DB409A88F273E0 /* Avenir-Roman.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

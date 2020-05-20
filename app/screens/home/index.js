@@ -8,16 +8,16 @@ import GlobalColors from '@theme/colors';
 import { paddingSize, borderRadius, normalizeSize, fontSize } from '@theme/layout';
 import FontStyle from '@theme/font';
 
-import NotificationIcon from '@theme/image/icons/ic_notification.png';
-import SearchIcon from '@theme/image/icons/ic_search.png';
-import FolderIcon from '@theme/image/dashBoard/ic_folder.png';
-import Card1 from '@theme/image/dashBoard/card1.png';
-import Card2 from '@theme/image/dashBoard/card2.png';
-import GridIconActive from '@theme/image/icons/icon_grid_active.png';
-import ListIcon from '@theme/image/icons/icon_list.png';
-import CircleIcon from '@theme/image/icons/ic_checkcircle.png';
-import KlarnaIcon from '@theme/image/dashBoard/bild_klarna.png';
-import PaypalIcon from '@theme/image/dashBoard/bild_paypal.png';
+import NotificationIcon from '@images/icons/ic_notification.png';
+import SearchIcon from '@images/icons/ic_search.png';
+import FolderIcon from '@images/dashBoard/ic_folder.png';
+import Card1 from '@images/dashBoard/card1.png';
+import Card2 from '@images/dashBoard/card2.png';
+import GridIconActive from '@images/icons/icon_grid_active.png';
+import ListIcon from '@images/icons/icon_list.png';
+import CircleIcon from '@images/icons/ic_checkcircle.png';
+import KlarnaIcon from '@images/dashBoard/bild_klarna.png';
+import PaypalIcon from '@images/dashBoard/bild_paypal.png';
 
 function Home() {
   return (

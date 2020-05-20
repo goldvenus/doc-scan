@@ -6951,7 +6951,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -7053,6 +7053,13 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-native-document-scanner@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-document-scanner/-/react-native-document-scanner-1.4.2.tgz#64ac74f2045882e6f98fe4fa2d59858ed27d8764"
+  integrity sha512-gh4WnZRBWk4CJApp2iaV8SW6SvV4wi2hA9ikwpNbDvpAFles8bWGSnjmOeOoy15KZgbIVaRjvCRRfFxaLVgJhg==
+  dependencies:
+    react "16.0.0-beta.5"
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
@@ -7308,6 +7315,16 @@ react-transform-hmr@^1.0.4:
   dependencies:
     global "^4.3.0"
     react-proxy "^1.1.7"
+
+react@16.0.0-beta.5:
+  version "16.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0-beta.5.tgz#b4abba9bce7db72c30633db54a148614b6574e79"
+  integrity sha512-FZSIxm5aO24tzl+11WWZSlYY9QCM3qm32f0+VEmAimm5ZFAiXdcHPdsWnCW00zkHIXszh9AWeOXu0OEqq30FSQ==
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.6"
 
 react@~16.9.0:
   version "16.9.0"

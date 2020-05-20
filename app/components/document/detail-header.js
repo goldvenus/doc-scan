@@ -1,18 +1,17 @@
 import React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { HeaderHeight, borderRadius } from '@constants/Layout';
-import GlobalStyle from '@constants/GlobalStyle';
-import GlobalColors from '@constants/Colors';
-import FontStyle from '@constants/Font';
+import { HeaderHeight, borderRadius } from '@theme/layout';
+import GlobalStyle from '@theme/global-style';
+import GlobalColors from '@theme/colors';
+import FontStyle from '@theme/font';
 import PropTypes from 'prop-types';
 import { Icon } from '../icon';
-import AppMocData from '../../share/MocData';
-import { paddingSize, fontSize } from '../../constants/Layout';
-
+import { paddingSize, fontSize } from '@theme/layout';
+import whiteBackIcon from '@images/icons/ic_white_back.png';
 export const DetailHeader = ({ title, docId, image, Back }) => (
   <View style={styles.headerContainer}>
     <TouchableOpacity onPress={Back} style={{ flex: 0.5 }}>
-      <Icon imageUrl={AppMocData.Icons.whiteBack} width={18} height={13} />
+      <Icon imageUrl={whiteBackIcon} width={18} height={13} />
     </TouchableOpacity>
     <View>
       <Text style={[GlobalStyle.H2, styles.title]}>{title}</Text>

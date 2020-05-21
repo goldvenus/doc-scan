@@ -5,6 +5,7 @@ import {Icon} from '@components/icon';
 import scanViewBorderImage from '@images/camera/scanview_border.png';
 import scanViewBackButton from '@images/icons/scanview_back_button.png';
 import scanViewCameraButton from '@images/icons/scanview_camera_button.png';
+import DocumentScanner from "react-native-document-scanner";
 
 class ScanPassportIOS extends Component {
 

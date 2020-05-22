@@ -10,8 +10,8 @@ export default function ScanPassport(props) {
     <View style={{flex: 1}}>
       {
         Platform.OS === 'android' ?
-          <ScanPassportIOS navigation={navigation}/> :
-          <ScanPassportIOS navigation={navigation}/>
+          <ScanPassportAndroid navigation={navigation}/> :
+          <ScanPassportAndroid navigation={navigation}/>
       }
     </View>
   );

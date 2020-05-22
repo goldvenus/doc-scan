@@ -21,11 +21,12 @@
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.5",
-    "react-native-document-scanner": "https://github.com/Michaelvilleneuve/react-native-document-scanner",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.8.0",
+    "react-native-rectangle-scanner": "^1.0.10",
     "react-native-safe-area-context": "^1.0.2",
     "react-native-screens": "^2.7.0",
+    "react-native-svg": "^12.1.0",
     "react-native-unimodules": "~0.9.0",
     "react-native-web": "~0.11.7",
     "react-navigation": "^3.2.1",
@@ -52,6 +53,7 @@
     "eslint-plugin-react": "^7.17.0",
     "jest": "~25.2.6",
     "react-native-scripts": "^2.0.1",
+    "react-native-vector-icons": "^6.6.0",
     "react-test-renderer": "~16.9.0"
   },
   "jest": {
